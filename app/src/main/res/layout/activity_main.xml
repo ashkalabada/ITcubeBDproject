@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="База данных студентов IT-Куб"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_see_g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Просмотреть группы" />
+
+    <Button
+        android:id="@+id/button_add_g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить группу" />
+
+    <Button
+        android:id="@+id/button_cng_g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Изменить группу" />
+
+    <Button
+        android:id="@+id/button_del_g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить группу" />
+
+    <Button
+        android:id="@+id/button_see_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Просмотреть студентов" />
+
+    <Button
+        android:id="@+id/button_add_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить студента" />
+
+    <Button
+        android:id="@+id/button_cng_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Изменить студента" />
+
+    <Button
+        android:id="@+id/button_del_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить студента" />
+
+    <Button
+        android:id="@+id/button_see_gs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поиск студента" />
+
+</LinearLayout>

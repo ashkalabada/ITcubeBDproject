@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="17">
+        <TextView
+            android:id="@+id/textGroupNumsID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="ID студента: "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idfield"/>
+
+    </LinearLayout>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="17">
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:text="Имя студента: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textName"/>
+    </LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="17">
+    <TextView
+        android:id="@+id/textsurmane"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:text="Фамилия студента: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textSurName"/>
+    </LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="17">
+    <TextView
+        android:id="@+id/textpatr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:text="Отчество студента: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textPatr"/>
+    </LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="17">
+    <TextView
+        android:id="@+id/textbday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:text="Дата рождения студента: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textBirthday"/>
+    </LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="17">
+    <TextView
+        android:id="@+id/textgr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:text="Номер группы студента: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textGroupN"/>
+    </LinearLayout>
+</LinearLayout>
